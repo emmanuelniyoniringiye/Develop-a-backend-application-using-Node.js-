@@ -2,7 +2,7 @@ let pdf = {
     name: 'Node .js',
     author: 'Eliab',
     //publicationDate: new Date('2022-01-01'),
-    year: 2024,
+    yearpublished: 2024,
     pages: 100,
     //isAvailable: false
 }
