@@ -1,14 +1,12 @@
-let even = 1,
-    odd = 1;
-while (even <= 10) {
-    //console.log(even);
-    if (even % 2 === 0) {
-        console.log(even);
+function checkEvenOdd(number) {
+    if (number % 2 === 0) {
+        console.log(number + " is even.");
+    } else {
+        console.log(number + " is odd.");
     }
 }
-while (odd <= 10) {
-    //console.log(`${even}`);
-    if (odd % 2 === 1) {
-        console.log(odd);
-    }
-}
+
+// Test the function
+checkEvenOdd(7);  // "7 is odd."
+checkEvenOdd(10); // "10 is even."
+
